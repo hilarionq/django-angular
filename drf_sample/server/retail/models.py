@@ -28,6 +28,14 @@ class Store(models.Model):
         ]
     )
 
+    business_hours_end = models.IntegerField(
+        default=17,
+        validators=[
+            MinValueValidator(0),
+            MaxValueValidator(23)
+        ]
+    )
+
 
 class Employee(models.Model):
     """ Location employee model. Foreign key to Store. """
