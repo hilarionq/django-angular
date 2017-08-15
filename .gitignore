@@ -6,3 +6,5 @@ db.sqlite3
 .DS_Store
 launch.json
 .idea/
+bower_components/
+node_modules/
