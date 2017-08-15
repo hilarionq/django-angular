@@ -4,5 +4,6 @@ var retail = angular.module("retail", []);
 
 angular.module('SampleApplication', [
         'appRoutes',
-        'retail'
+        'retail',
+        'ngResource'
     ]);
