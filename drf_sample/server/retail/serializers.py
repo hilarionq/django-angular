@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Chain, Store, Employee
+from retail.models import Chain, Store, Employee
 
 
 class ChainSerializer(serializers.ModelSerializer):

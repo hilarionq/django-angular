@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from .models import Chain, Store, Employee
-from .serializers import ChainSerializer, StoreSerializer, EmployeeSerializer
+from retail.models import Chain, Store, Employee
+from retail.serializers import ChainSerializer, StoreSerializer, EmployeeSerializer
 
 
 class ChainViewSet(viewsets.ModelViewSet):
